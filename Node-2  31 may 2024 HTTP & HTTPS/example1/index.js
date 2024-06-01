@@ -12,6 +12,9 @@ const server = http.createServer((req, res)=>{
     }else if(req.url==="/Profile"){
         console.log("Profile page")
         res.end("Hello, Profile Page")
+    }else if(req.url==="/Contact"){
+        console.log("Contact Page")
+        res.end("Hello, Contact Page")
     }
 })
 
